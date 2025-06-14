@@ -49,7 +49,7 @@ class Main {
 			switch (option) {
 				case 1:
 					results = SystemInterface.getCarRates();
-					displayResult(results);
+					//displayResult(results);
 					break;
 				case 2:
 					results = SystemInterface.getTruckRates();
